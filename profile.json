@@ -1,0 +1,117 @@
+{
+  "name": "Ionescu",
+  "surname": "George",
+  "birthPlace": "Bucuresti",
+  "birthDate": "1960-05-06",
+  "zodiacSign": "Virgo",
+  "residence": "Sibiu",
+  "partyMember": [{
+    "year": 1997,
+    "party": "UDMR"
+  }],
+  "wealth": {
+    "netWorth": 220000,
+    "cash": 20000,
+    "houses": [{
+      "surface": 220,
+      "location": "Pitesti"
+    }],
+    "landSurface": [{
+      "surface": 1000,
+      "location": "Bolintin Vale"
+    }],
+    "cars": [{
+      "brand": "mercedes",
+      "manufactureYear": 2010
+    }],
+    "salary": 200000,
+    "debts":[{
+      "lender": "BRD",
+      "value": 20000
+    }]
+  },
+  "criminalFiles":{
+    "sendingsToCourt": {
+      "number": 4,
+      "info": [
+        "sending to court description 1",
+        "sending to court description 2",
+        "sending to court description 3"
+      ]
+    },
+    "noConvictions": 2,
+    "convictions":{
+      "typeOfCrimes": "coruptie",
+      "requestedPenalty": 3.5,
+      "guilty": true,
+      "prisonYears": 2,
+      "seizures": [
+        "car 1",
+        "house 2", 
+        "land 3"
+      ],
+      "reabilitationDate": "2030-09-06",
+      "prisonYearsActuallyExecuted": 1,
+      "seizedGoodsValueRecovered": 20000,
+      "releasedAt": "2020-02-09"
+    }
+  },
+  "profile":[{
+    "year": 1998,
+    "profileType": "Presedinte",
+    "profileDescription": {
+      "party": "PNL",
+      "appointments": [{
+        "position": "Ministrul muncii",
+        "date": "2017-07-06",
+        "person": "Vasile Gheorghe"
+      }],
+      "rejections": [{
+        "position": "Ministrul muncii",
+        "date": "2017-07-06",
+        "person": "Vasile Gheorghe"
+      }],
+      "lawsResentToParliament":[
+        "law 1",
+        "law 2"
+      ],
+      "lawsAttackedAtCCR": [
+        "law1",
+        "law2"
+      ],
+      "votes": {
+        "percentage": 45.89,
+        "noVotes": 2388990
+      },
+      "secretService": [
+        "director 1",
+        "director 2"
+      ],
+      "mainProjects": [
+        "project 1",
+        "project 2"
+      ],
+      "parliamentSessions": [{
+        "description": "session 1",
+        "date": "2017-09-09"
+      }],
+      "parliamentMessages": [{
+        "message": "lorem ipsum",
+        "date": "2018-07-05"
+      }],
+      "csmMeetings": [{
+        "date": "2019-01-01"
+      }],
+      "ccrConflicts": [{
+        "reason": "reason 1",
+        "date": "2018-09-03"
+      }],
+      "noSignatures": 290000,
+      "socialLinks": {
+        "facebook": "link1",
+        "twitter": "link2",
+        "website": "link3"
+      }
+    }
+  }]
+}
