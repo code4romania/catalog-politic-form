@@ -1,12 +1,30 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
+import { withTranslation } from 'react-i18next';
+import TextInput from 'components/inputs/TextInput';
 
-function NewProfile () {
-  return (
-    <div>
-      <p>New profile page</p>
-    </div>
-  );
+
+class NewProfile extends React.Component {
+
+  state = {
+    firstName: '',
+    lastName: ''
+  }
+
+  render() {
+
+    const { t } = this.props;
+    const { firstName, lastName } = this.state;
+
+    return (
+      <div>
+        <p>New profile page</p>
+
+        <TextInput label={t('firstName.label')} placeholder={t('firstName.placeholder')} value={firstName} />
+        <TextInput label={t('lastName.label')} placeholder={t('lastName.placeholder')} value={lastName} />
+
+      </div>
+    );
+  }
 };
 
-export default NewProfile;
+export default withTranslation()(NewProfile);
