@@ -1,11 +1,17 @@
 import React from 'react';
 
-function TextInput({ value, label, placeholder, onChange }) {
+function TextInput({ name, value, label, placeholder, onChange }) {
   return (
-    <div class="field">
-      <label class="label">{label}</label>
-      <div class="control">
-        <input class="input" type="text" placeholder={placeholder} onChange={onChange} value={value} />
+    <div className="field">
+      <label className="label">{label}</label>
+      <div className="control">
+        <input 
+          name={name} 
+          className="input" 
+          type="text" 
+          placeholder={placeholder} 
+          onChange={onChange} 
+          value={value} />
       </div>
     </div>
   );
